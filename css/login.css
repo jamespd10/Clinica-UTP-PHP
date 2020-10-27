@@ -1,0 +1,99 @@
+body{
+    background: url("../img/utp-entrada.jpg") no-repeat;
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+    background-attachment: fixed;
+}
+.footer{
+    left: 0;
+    height: 100px;
+    bottom: 0;
+    width: 100%;
+    background-color: #2f2f2f;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    background-color: #681a5d;
+ }
+.footer a{
+    color: white;
+}
+.dark-overlay{
+    background-color: rgba(0, 0, 0, .7);
+    display: flex;
+}
+.container-fluid{
+    color: #fff;
+    
+}
+#verPass{
+    margin-bottom: 15px;
+}
+i{
+    padding-top: 10px;
+}
+.container{
+    padding-top: 10px;
+}
+#formulario{
+    max-width: 35%;
+    margin-bottom: 100px;
+}
+#btn{
+    width: 100%;
+    background: #681a5d;
+    border: #681a5d;
+}
+a{
+    width: 100%;
+}
+.form-group{
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+}
+#form{
+    border-bottom: 1px solid #681a5d;
+}
+.form-group i{
+    width: 26px;
+    float: left;
+    text-align: center;
+}
+.form-group input{
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 16px;
+    width: 85%;
+    float: left;
+    margin: 0 10px;
+}
+.card-header{
+    text-align: center;
+}
+@media screen and (max-width: 1280px){
+    #formulario{
+        max-width: 50%;
+    }
+    .container{
+        padding-bottom: 50px;
+    }
+}
+@media screen and (max-width: 800px){
+    #formulario{
+        max-width: 90%;
+    }
+}
+@media screen and (max-width: 1000px){
+    .form-group input{
+        width: 75%;
+    }
+}
+.container-fluid{
+    text-align: center;
+    padding-top: 30px;
+}

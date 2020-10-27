@@ -1,0 +1,74 @@
+.container{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+h1{
+    padding-bottom: 20px;
+}
+#myInput{
+  border-radius: 5px;
+  border: 1px solid;
+  width: 74%;
+  padding: 10px;
+}
+#myInput{
+  border: 1px solid #ccc;
+  resize: vertical;
+}
+.autocomplete-items {
+  border: 1px solid #d4d4d4;
+  border-bottom: none;
+  border-top: none;
+  width: 74%;
+}
+.autocomplete-items div{
+  cursor: pointer;
+  background-color: #e6e6e7; 
+  border-bottom: 1px solid #d4d4d4; 
+  border-radius: 4px;
+}
+.autocomplete-items div:hover {
+  background-color: #681a5d;
+  color: white;
+}
+.autocomplete{
+  margin-bottom: 20px;
+}
+#btn{
+  background-color: #681a5d;
+  border: 1px solid #681a5d;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  width: 24%;
+  float: right;
+}
+#btn:hover{
+  background-color: #d3c0d3;
+  color: black;
+  border:#d3c0d3;
+}
+#btn2{
+  background-color: #681a5d;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: center;
+}
+#btn2:hover{
+  background-color: #d3c0d3;
+  color: black;
+  border:#d3c0d3;
+}
+  @media screen and (max-width: 991px){
+      #btn {
+        margin-bottom: 15px;
+      }
+      .autocomplete-items {
+        width: 100%;
+        float: left;
+        margin-bottom: 10px;
+      }
+}

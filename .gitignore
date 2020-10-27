@@ -1,0 +1,10 @@
+img
+php/db/Connection.php
+php/config
+db
+css/bootstrap-4.3.1-dist
+css/fontawesome-free-5.11.2-web
+phpmailer
+js/textarea
+pdf/fpdf
+*.htaccess*

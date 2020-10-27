@@ -1,0 +1,42 @@
+body {
+  background-color: #181C30;
+}
+.container{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.card-header{
+  background-color: #d3c0d3;
+}
+.card-header .btn{
+  color: #000;
+}
+.card-header:hover .btn{
+ color: white;
+}
+.card-header:hover{
+ background-color: #681a5d;
+ color: white;
+}
+#reportes a{
+  color: black;
+}
+#reportes a:hover{
+  color: #681a5d;
+}
+#generarPdf{
+  background-color: #d3c0d3;
+  color: black;
+}
+#generarPdf:hover{
+  background-color: #681a5d;
+  color: white;
+}
+#enviarBtn{
+  background-color: #681a5d;
+  color: white;
+}
+#enviarBtn:hover{
+  background-color: #d3c0d3;
+  color: black;
+}
